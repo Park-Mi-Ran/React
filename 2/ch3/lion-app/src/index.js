@@ -10,6 +10,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+//ReactDOM.render의 역할은 브라우저에 있는 실제 dom내부에 리액트 컴포넌트를 렌더링하겠다는 것을 의미
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
