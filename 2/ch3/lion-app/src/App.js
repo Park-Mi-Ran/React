@@ -28,6 +28,7 @@ function App() {
       <Hello name="react" color="red" isSpecial={true} />
       <Hello color="blue" />
     </Wrapper>
+    <Counter />
     </> 
     /*두개 이상의 태그는 무조건 하나의 태그로 감싸져있어야한다.
     불필요한 div로 감싸는것은 좋지 않은 방법이다.

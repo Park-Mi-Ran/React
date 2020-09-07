@@ -14,9 +14,12 @@ function Hello({color,name}){
 function Hello({color,name,isSpecial}){
     return <div style={{color}}>
         {/* 조건식 ? a(true) : b(false) */}
-        {isSpecial ? <b>*</b> : null}
+        {/*isSpecial ? <b>*</b> : null */}
+        {/* 단축 평가 논리 계산법 */}
+        {isSpecial&&<b>*</b>}
         안녕하세요 {name}
     </div>
+
 //defaultProps 기본값 설정
 Hello.defaultProps = {
     name: '이름없음'
